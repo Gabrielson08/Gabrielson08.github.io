@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			background-color: #36312e;
+			font-family: "Times New Roman", Times, serif;
+			font-size: 25px;
+		}
+
+		h1{
+			text-align: center;
+			color:#e37c2d;
+		}
+		p{
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			margin: auto;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+		table{
+			border-collapse: collapse;
+			border: 1px solid black;
+		}
+		th{
+			background-color: #e37c2d;
+			text-align: center;
+		}
+		tr{
+			background-color: #9c9794;
+			text-align: center;
+
+		}
+		#top-nav{
+			  overflow: hidden;
+			  background-color: #333;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			  border-bottom: 1px solid  black;
+			  margin-bottom: 15px;
+		}
+		.main {
+			  padding: 16px;
+			  margin-top: 40px;
+			  height: 1500px; /* Used in this example to enable scrolling */
+		}
+		#top-nav li{
+  			  float: left;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  margin-left: 199px;
+			  text-decoration: none;
+			  font-size: 30px;
+			  margin-top: -24px;
+		}
+
+		#top-nav a{
+			text-decoration: none;
+			color: #e37c2d;
+		}
+		#top-nav a:hover{
+			text-decoration: underline;
+			color: #a64c16;
+		}
+		#top-nav a:active{
+			color: black;
+		}
+		#tab_top{
+			background-color: #3b7aa1;
+		}
+	</style>
+</head>
+<body>	
+	<header>
+		<nav id="top-nav">
+			<ul>
+				<li><a href="info.html">Informações</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="">Programa</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="main">
+	<h1 >Tabela Verdade</h1>
+	<p>
+		Tabela verdade é uma fórmula utilizado no estudo da lógica matemática. Com a utilização dela é possível definir o resultado lógico de uma proposição, ou seja, saber quando uma operação resultaria em verdadeiro ou falso.
+
+		Na lógica, as proposições representam pensamentos completos e indicam afirmações de fatos ou ideias.
+
+		Utiliza-se a tabela verdade em proposições compostas, isto é, sentenças formadas por proposições simples, sendo que o resultado final depende apenas do valor de cada proposição.
+
+		Para combinar proposições e criar proposições compostas são utilizados representalçoes de operações lógicas.
+
+		Na tabela a seguir, estão os principais conectivos, os símbolos usados para representá-los, a operação lógica que representam e o resultante valor lógico.
+	</p>
+	
+
+	<br>
+	<p id="tabela">
+		<table border="1" align="center" width="800px" height="350px">
+			<tr class="tab_top">
+				<th>Conectivo</th>
+				<th>Símbolo</th>
+				<th>Operação</th>
+				<th>Resultado</th>
+			</tr>
+			<tr>
+				<td>não</td>
+				<td><b>~</b></td>
+				<td>negação</td>
+				<td>Caso a proposição seja verdadeira, terá o valor falso</td>
+			</tr>
+			<tr>
+				<td>e</td>
+				<td><b>^</b></td>
+				<td>conjunção</td>
+				<td>Somente quando as proposições forem verdadeiras o valor será verdadeiro</td>
+			</tr>
+			<tr>
+				<td>ou</td>
+				<td><b>v</b></td>
+				<td>disjunção</td>
+				<td>O valor será verdadeiro caso uma das proposições seja verdadeira</td>
+			</tr>
+			<tr>
+				<td>se...então</td>
+				<td><b>→</b></td>
+				<td>condicional</td>
+				<td>Será falsa quando a proposição antecedente for verdadeira e a consequente for falsa</td>
+			</tr>
+			<tr>
+				<td>...se somente se...</td>
+				<td><b>↔</b></td>
+				<td>bicondicional</td>
+				<td>O valor será verdadeiro caso ambas as proposições forem verdadeiras ou quando ambas forem falsas</td>
+			</tr>
+		</table>
+	</p>
+	</div>
+</body>
+</html>
